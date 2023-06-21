@@ -1,0 +1,173 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: #a8ddc3;
+    /*background-image: linear-gradient(to bottom right, #F9ECAC,#a8ddc3,#DAE4EB,#bfa9c4);*/
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url(Font/Nunito-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(Font/Poppins-Light.ttf);
+}
+
+.form1 {
+    /* border: 10px solid grey; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    /* height : 10Vh;    */
+}
+
+.container {
+    max-width: 375px;
+    width: 100%;
+    /* height: 50vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    /* display: inline-block; */
+}
+
+.card {
+    align-items: center;
+    padding: 7% 0 5% 0;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+}
+
+h1 {
+    /* margin-top: 1%; */
+    font-family: Nunito;
+    margin-bottom: 5%;
+    font-size: 30px;
+    /* width: 50%; */
+
+    text-align: center;
+    color: #1f1f1f;
+}
+
+h6 {
+    /* border:2px solid grey; */
+    margin-bottom: 6%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    font-family: Poppins;
+    /*font-weight: 700;*/
+    font-size: 11px;
+    /*line-height: 10px;*/
+}
+
+.usernametxt {
+    border-radius: 13px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #666666;
+    padding: 10px;
+    width: 70%;
+    text-emphasis-color: #666666;
+    /* font-family: Poppins; */
+
+    margin-bottom: 3%;
+}
+
+.passwordtxt {
+    border-radius: 13px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #666666;
+    padding: 10px;
+    width: 70%;
+    margin-bottom: 3%;
+}
+
+.loginbtn {
+    margin-top: 5%;
+    margin-bottom: 4%;
+    width: 75%;
+    padding: 10px;
+    border-radius: 13px;
+    border-style: none;
+    background-color: #F9ECAC;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.signupbtn {
+    font-family: Poppins;
+    border: none;
+    background-color: inherit;
+    background-color: none;
+    cursor: pointer;
+}
+
+.label1 {
+    font-family: Poppins;
+    font-size: 13px;
+}
+
+/* Sign Up property */
+
+.phonenum {
+    border-radius: 13px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #666666;
+    padding: 10px;
+    width: 70%;
+    text-emphasis-color: #666666;
+    /* font-family: Poppins; */
+
+    margin-bottom: 3%;
+}
+
+.email {
+    border-radius: 13px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #666666;
+    padding: 10px;
+    width: 70%;
+    text-emphasis-color: #666666;
+    /* font-family: Poppins; */
+
+    margin-bottom: 3%;
+}
+
+.confirmpassword {
+    border-radius: 13px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #666666;
+    padding: 10px;
+    width: 70%;
+    /*margin:3%;*/
+}
+
+.CheckBox1 {
+    align-content: flex-end;
+}
